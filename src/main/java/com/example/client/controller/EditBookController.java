@@ -1,4 +1,4 @@
-package com.example.client.contoller;
+package com.example.client.controller;
 
 public class EditBookController {
 }

@@ -1,4 +1,4 @@
-package com.example.client.contoller;
+package com.example.client.controller;
 
 import com.example.client.HelloApplication;
 import javafx.event.ActionEvent;
@@ -13,3 +13,5 @@ public class ApplicationController {
         HelloApplication.showPersonEditDialog();
     }
 }
+
+

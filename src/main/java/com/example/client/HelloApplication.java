@@ -25,7 +25,7 @@ public class HelloApplication extends Application {
         try {
 // Загрузка fxml создание сцены для всплывающего окна.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation (Application.class.getResource(  "add.fxml"));
+            loader.setLocation (HelloApplication.class.getResource("add.fxml"));
             AnchorPane page = (AnchorPane) loader.load();
 // Создание окна Stage.
             Stage dialogStage = new Stage();
@@ -40,11 +40,7 @@ public class HelloApplication extends Application {
             return false;
         }
     }
-    @FXML
-    void addBook (ActionEvent event) throws IOException
-    {
-        HelloApplication.showPersonEditDialog();
-    }
+
 
 
 
