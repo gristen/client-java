@@ -36,9 +36,9 @@ public class ApplicationController {
         private TableColumn <Bookentity, String > bookYear;
         @FXML
         private TableColumn <Bookentity, String > bookChapter;
-        @FXML
+//        @FXML
 
-            private void initialize() throws Exception {
+        /*    private void initialize() throws Exception {
                 BookListResponse book = http.get("http://localhost:2825/api/v1/","all");
                 for (int i = 0; i < book.data.size(); i++) booksData.add(book.data.get(i));
                 bookId.setCellValueFactory(new PropertyValueFactory<Bookentity,Long>("id"));
@@ -48,7 +48,7 @@ public class ApplicationController {
                 bookYear.setCellValueFactory(new PropertyValueFactory<Bookentity, String>("year"));
                 bookChapter.setCellValueFactory(new PropertyValueFactory<Bookentity, String>("kind"));
                 tableBooks.setItems(booksData);
-            }
+            }*/
                 @FXML
                 void addBook (ActionEvent event) throws IOException
                 {
